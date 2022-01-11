@@ -1,4 +1,4 @@
-# AIFA-MOBILE-THEAM
+# MOBILE-THEAM
 ## !!!   There are no photos in the file and don't be surprised if it gives an error.   !!!
 <img src="img/1.png" width="250">
 <img src="img/2.png"width="250">
