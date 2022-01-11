@@ -1,0 +1,178 @@
+import 'category.dart';
+import 'listt_data.dart';
+
+const Categories_data = const [
+  Category(
+    id: 'c1',
+    titl: 'Doviz',
+    image: ('images/bitcoin.png'),
+  ),
+  Category(
+    id: 'c2',
+    titl: 'Döviz',
+    image: ('images/doviz.png'),
+  ),
+  Category(
+    id: 'c3',
+    titl: 'Altın',
+    image: ('images/altin.png'),
+  ),
+  Category(
+    id: 'c4',
+    titl: 'Borsa',
+    image: ('images/forexx.jpeg'),
+  ),
+  Category(
+    id: 'c5',
+    titl: 'Haberler',
+    image: ('images/news.png'),
+  ),
+  Category(
+    id: 'c6',
+    titl: 'Sarrafiye',
+    image: ('images/sarrafiye.png'),
+  ),
+];
+
+const Trips_data = const [
+  Trip(
+    id: 'a1',
+    categries: ['c1'],
+    title: '',
+    sel: '          Alış: 12     Satış:13',
+    iamge: ('images/trdlr.png'),
+  ),
+  Trip(
+    id: 'a2',
+    categries: ['c1'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/treuro.png'),
+  ),
+  Trip(
+    id: 'a3',
+    categries: ['c1'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/trpound.png'),
+  ),
+  Trip(
+    id: 'a4',
+    categries: ['c1'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/treuro.png'),
+  ),
+  Trip(
+    id: 'b1',
+    categries: ['c2'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/doge.png'),
+  ),
+  Trip(
+    id: 'b2',
+    categries: ['c2'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/doge.png'),
+  ),
+  Trip(
+    id: 'b3',
+    categries: ['c2'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/etherium.png'),
+  ),
+  Trip(
+    id: 'b3',
+    categries: ['c2'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/etherium.png'),
+  ),
+  Trip(
+    id: 'z1',
+    categries: ['c3'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/a.png'),
+  ),
+  Trip(
+    id: 'z2',
+    categries: ['c3'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/b.png'),
+  ),
+  Trip(
+    id: 'z3',
+    categries: ['c3'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/c.png'),
+  ),
+  Trip(
+    id: 'z4',
+    categries: ['c3'],
+    title: '',
+    sel: '         Alış: 12     Satış:13',
+    iamge: ('images/b.png'),
+  ),
+  Trip(
+    id: 'n1',
+    categries: ['c4'],
+    title: '',
+    sel: '',
+    iamge: ('images/yesil.png'),
+  ),
+  Trip(
+    id: 'n2',
+    categries: ['c4'],
+    title: '',
+    sel: '',
+    iamge: ('images/k.png'),
+  ),
+  Trip(
+    id: 'n3',
+    categries: ['c4'],
+    title: '',
+    sel: '',
+    iamge: ('images/yesil.png'),
+  ),
+  Trip(
+    id: 'n4',
+    categries: ['c4'],
+    title: '',
+    sel: '',
+    iamge: ('images/yesil.png'),
+  ),
+  // Trip(
+  //   id: 'd1',
+  //   categries: ['c5'],
+  //   title: 'Borsa yine düştü',
+  //   sel: 'haber detaylarına git...',
+  //   iamge: ('images/'),
+  // ),
+  // Trip(
+  //   id: 'd2',
+  //   categries: ['c5'],
+  //   title: 'Smoothi',
+  //   sel: '6',
+  //   iamge: ('images/2dd2.png'),
+  // ),
+  // Trip(
+  //   id: 'd3',
+  //   categries: ['c5'],
+  //   title: 'pepsi',
+  //   sel: '1',
+  //   iamge: ('images/dpj3.png'),
+  // ),
+  // Trip(
+  //   id: 'd4',
+  //   categries: ['c5'],
+  //   title: 'Water',
+  //   sel: '1',
+  //   iamge: ('images/djw4.png'),
+  // ),
+];
